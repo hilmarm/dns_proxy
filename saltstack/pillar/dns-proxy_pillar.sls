@@ -1,2 +1,1 @@
-dns:
-  default: 8.8.8.8
+dns_interface: 192.168.200.100

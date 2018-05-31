@@ -27,3 +27,9 @@ dnschef shell script updated:
     - name: /home/vagrant/dns_set_updated.sh
     - source: salt://dnschef/files/dns_set_updated.sh
     - mode: 744
+
+dnschef log_file:
+  file.managed:
+    - name: /home/vagrant/dns_log
+    - source: salt://dnschef/files/dns_log
+    - mode: 664

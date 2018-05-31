@@ -3,4 +3,4 @@ base:
     - deps
     - dnschef
   'client':
-    - deps
+    - set_nameserver
