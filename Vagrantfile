@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :salt do |salt|
     salt.minion_config = "saltstack/etc/minion"
-    salt.run_highstate = true
+    salt.run_highstate = false
     salt.log_level = 'info'
     salt.verbose = true
     salt.colorize = true
